@@ -59,7 +59,7 @@
             "one": {
                 "title": "Web Entwicklung",
                 "skills": ["HTML", "SCSS & CSS", "JavaScript", "TypeScript", "PHP", "SQL", "React", "Bootstrap", "Material-UI", "Git/Github", "RestAPI"],
-                "levels": [5, 4, 4, 3, 4, 2, 4, 5, 4, 3, 4]
+                "levels": [5, 4, 4, 3, 3, 2, 4, 5, 4, 3, 4]
             },
             "two": {
                 "title": "Design & Medien",

@@ -8,7 +8,6 @@ import { ContactButton } from './components/ContactButton';
 import { Start } from './domain/start/Start';
 import { About } from './domain/about/About';
 import { Skills } from './domain/skills/Skills';
-import { Portfolio } from './domain/portfolio/Portfolio';
 import { LegalNotice } from './domain/legalNotice/LegalNotice';
 import { Contact } from './domain/contact/Contact';
 
@@ -21,11 +20,12 @@ const useStyles = makeStyles((theme: Theme) =>
       left: 0
     },
     scrollContainer: {
-      overflow: 'scroll',
       height: '100%',
       width: '100%',
       display: 'block',
       position: 'absolute',
+      overflow: 'scroll',
+      overflowX: 'visible'
     },
     site: {
       minHeight: '100vh',
@@ -124,9 +124,6 @@ const App: React.FC = (props) => {
                   </div>
                   <div ref={skillsRef} className={classes.site}>
                     <Skills />
-                  </div>
-                  <div ref={portfolioRef} className={classes.site}>
-                    <Portfolio />
                   </div>
                   <div ref={contactRef} className={classes.site}>
                     <Contact />

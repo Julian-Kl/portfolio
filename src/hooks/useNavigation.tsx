@@ -7,8 +7,7 @@ export function useNavigation(target: string) {
     const [location, setLocation] = useState<object | null>();
 
     setLocation(useLocation());
-
-    console.log("Navigation used.");
+    
     console.log(location);
 
     return(0);
